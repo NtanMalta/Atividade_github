@@ -3,7 +3,7 @@ name: CI basico
 on:
     push:
         branches:
-            - mster
+            - master
 jobs:
     verificar-projeto:
         runs-on: ubuntu-latest
@@ -16,7 +16,7 @@ jobs:
               run:
                 echo "projeto recebido"
                 ls -la
-                
+
             - name: Finalizado
               run: echo "pipeline executado com sucesso"
                 
