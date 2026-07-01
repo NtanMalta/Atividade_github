@@ -1,0 +1,23 @@
+name: CI basico
+
+on:
+    push:
+        branches:
+            - mster
+jobs:
+    verificar-projeto:
+        runs-on: ubuntu-latest
+        
+        steps:
+            - name: baixar codigo
+              uses: action/checkout@v4
+
+            - name: verificar arquivos
+              run:
+                echo "projeto recebido"
+                ls -la
+                
+            - name: Finalizado
+              run: echo "pipeline executado com sucesso"
+                
+                
