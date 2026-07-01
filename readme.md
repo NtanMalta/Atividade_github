@@ -1,1 +1,1 @@
-projeto desenvolvido durante a aula de git e github
+projeto desenvolvido durante a aula de git e githuba
