@@ -10,7 +10,7 @@ jobs:
         
         steps:
             - name: baixar codigo
-              uses: action/checkout@v4
+              uses: actions/checkout@v4
 
             - name: verificar arquivos
               run:
